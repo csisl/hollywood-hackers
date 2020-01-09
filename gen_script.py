@@ -14,7 +14,7 @@ def get_prog_noun():
                    "admin", "RAM", "mainframe",
                    "terminal", "hard drive", "SSL",
                    "port", "URL", "router", "hashcat",
-                   "Linux", "Kali", "HTTPS" ]
+                   "Linux", "Kali", "HTTPS", "registry" ]
 
 	return prog_nouns[randint(0, len(prog_nouns)-1)]
 
@@ -26,7 +26,8 @@ def get_prog_verb():
 				   "test", "decompile", "compile",
 				   "tunnel", "VPN", "execute",
 				   "sudo", "link", "download",
-				   "upload", "inject", "SSH" ]
+				   "upload", "inject", "SSH", 
+		      		   "proxy", "ping"]
 
 	return prog_verbs[randint(0, len(prog_verbs)-1)]
 
