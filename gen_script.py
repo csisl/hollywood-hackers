@@ -26,7 +26,8 @@ def get_prog_verb():
 				   "test", "decompile", "compile",
 				   "tunnel", "VPN", "execute",
 				   "sudo", "link", "download",
-				   "upload", "inject", "SSH", "proxy", "ping"]
+				   "upload", "inject", "SSH", 
+		      		   "proxy", "ping"]
 
 	return prog_verbs[randint(0, len(prog_verbs)-1)]
 
